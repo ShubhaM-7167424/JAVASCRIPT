@@ -45,3 +45,5 @@ function constExample() {
   }
   // console.log(b); // This will throw an error
 }
+
+// *****************************************************************
