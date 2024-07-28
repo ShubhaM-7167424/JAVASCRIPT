@@ -3,7 +3,6 @@
 //? variable name cannot start with a number
 //? variable name can only contain letters, numbers, underscores and dollar signs
 //? variable name are case sensitive
-//? variable name cannot be a keyword
 //? variable name cannot be a reserved keyword
 
 var firstName = 'John';
