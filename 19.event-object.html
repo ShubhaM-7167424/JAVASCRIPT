@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Listners</title>
+</head>
+<body>
+    <button id="btn">Click me</button>
+
+    <script>
+        let button = document.getElementById('btn')
+        function handleClick(event) {
+            console.log(event);
+            console.log(event.target);
+            console.log(event.type);
+        }
+
+        button.addEventListener('click', handleClick)
+
+    </script>
+</body>
+</html>
