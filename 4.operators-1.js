@@ -24,7 +24,7 @@ console.log(b);
 
 //* '==' Compares two values  after converting both values to a common type (type coercion)
 
-//* '===' Compares two values  without converting them to a common type. Both the value and the type must be the same.
+//* '===' Compares two values   without converting them to a common type. Both the value and the type must be the same.
 
 console.log(5 == "5");       // true (type conversion happens)
 console.log(true == 1);      // true (true is converted to 1)
