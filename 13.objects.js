@@ -7,9 +7,11 @@ const person = {
     }
 }
 
+//* read the values
 // console.log(person.name);
 // console.log(person['gender']);
 
+//* update the values
 person.age = 25
 person.job = 'devloper'
 
@@ -17,7 +19,7 @@ person.job = 'devloper'
 
 // person.greet()
 
-// add a method in the object 
+//* add a method in the object 
 person.hello = function(){
     console.log('Hello');
 }
