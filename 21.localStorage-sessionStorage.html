@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>localStorage and sessionStorage</title>
+</head>
+<body>
+     <!--? if we close browser and open it then also the data is present in localStorage -->
+
+    <script>
+        localStorage.setItem('name', 'Shubham Singh')
+        localStorage.setItem('age', 28)
+        localStorage.getItem('name')
+        localStorage.getItem('age')
+        localStorage.removeItem('age') 
+        localStorage.clear()
+    // ============================================= //
+     <!--? if we close browser and open it then also the data is not present in sessionStorage -->
+
+        sessionStorage.setItem('age', 28)
+        sessionStorage.setItem('name', 'Shubham Singh')
+        sessionStorage.getItem('name')
+        sessionStorage.getItem('age')
+        sessionStorage.removeItem('age') 
+        sessionStorage.clear()
+    </script>
+</body>
+</html>
