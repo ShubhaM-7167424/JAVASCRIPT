@@ -1,17 +1,10 @@
-function outer() {
-    let a = 10;
-    function inner() {
-        function inner2() {
-            let b = 5;
-            let c = a + b;
-            console.log(c);
-            
-        }
-        inner2();
+function factorialOfANumber(number) {
+    let fact=1;
+    for(let i=number ; i>=1; i--){
+        fact=fact*i;
     }
-    return inner;
+    return fact;
 }
 
-let result = outer();
-console.log(result());
 
+console.log(factorialOfANumber(5));
